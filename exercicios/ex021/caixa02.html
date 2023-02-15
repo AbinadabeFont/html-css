@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 0px 10px;
+            box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.412);
+        }
+        p {
+            text-indent: 30px;
+        }
+        nav {
+            background-color: rgb(112, 112, 112);
+            padding: 4px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.458);
+        }
+        nav > a {
+            text-decoration: none;
+            padding: 5px;
+            margin-right: 15px;
+            color: white;
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        #assuntos{
+            background-color: lightgray;
+            padding: 1px;
+            text-align: justify;
+        }
+        #noticias {
+            background-color: lightgray;
+            padding: 1px;
+            text-align: justify;
+        }
+        .autor {
+            text-align: right;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        main {
+            background-color: lightgray;
+            margin: 10px;
+            padding: 0px 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: right;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div.bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 50%
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Notícias do dia, com Abinadabe</h1>
+        <nav>
+            <a href="#">Pra lugar algum</a>
+            <a href="#">Pra lugar um</a>
+            <a href="#">Pra lugar dois</a>
+            <a href="#">Eu mesmo</a>
+            <a href="#">Você mesmo</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Acontecimentos Mundiais</h2>
+            <h3>Estados Unidos é feio!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus nisi, non voluptatem repellendus similique ipsum possimus voluptatibus hic, et pariatur dolorum. Aspernatur impedit voluptate eum odit, nostrum enim nihil non. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident dignissimos corporis reprehenderit. Debitis rerum dolore nemo, assumenda at totam culpa! Corporis voluptatem unde facere iusto vero labore adipisci laborum velit.</p>
+            <aside>
+                <p class="autor">Artigo escrito por Orlandinho.</p>
+            </aside>
+        </section>
+        <section id="noticias">
+            <article>
+            <h2>Notícia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ipsa voluptate hic animi vel aut itaque tenetur consectetur, maxime ea, eligendi aliquam atque ab deleniti enim est. Eveniet, modi ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque inventore architecto quam doloremque vero nemo blanditiis, nobis modi excepturi ab quo facilis ipsum aut atque magni laborum minima, sed cum.</p>
+                <aside>
+                    <p class="autor">Artigo escrito por José da Silva.</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Abinadabe.</p>
+    </footer>
+    <div class="bola">
+
+    </div>
+</body>
+</html>

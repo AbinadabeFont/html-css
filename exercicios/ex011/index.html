@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias sem HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em diferentes dispositivos ou simplimente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 720px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="Imagem flexível">
+    </picture>
+   <h2>Reproduzindo audios.</h2>
+   <p>Audio adquirido em <a href="https://studio.youtube.com/channel/UCh7n-G-thmfuLHjUD9VKfKA/music">YouTube Studio</a>.</p>
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/emotional-mess.mp3" type="audio/mpeg">
+        <source src="midia/emotional-mess.ogg" type="audio/ogg">
+        <source src="midia/emotional-mess.wav" type="audio/wav">
+    </audio>
+    <p>Caso seu navegador não consega reproduzir o aúdio <a href="midia/emotional-mess.mp3">clique aqui</a> para baixar o arquivo em MP3</p>
+
+    <!--<audio src="midia/Emotional Mess - Amy Lynn & the Honey Men.mp3" controls autoplay></audio>--> <p>MP3 WAV OGG. Formatos de audio compativeis</p>
+    
+
+</body>
+</html>
